@@ -1,1 +1,0 @@
-"# lawrencestockman.com" 
