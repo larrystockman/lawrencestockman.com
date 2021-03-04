@@ -1,7 +1,7 @@
-title = "Notre-Dame de Paris"
+title = "Lawrence STockman"
 baseURL = "https://lawrencestockman.com"
 languageCode = "en-us"
-theme = "ananke"
+theme = "lawrencestockman"
 resourceDir = "./resources"
 
 DefaultContentLanguage = "en"
