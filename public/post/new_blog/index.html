@@ -42,7 +42,7 @@
 <meta itemprop="name" content="New Headless Blog">
 <meta itemprop="description" content="Creating websites can be a pain."><meta itemprop="datePublished" content="2021-03-03T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2021-03-03T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="297">
+<meta itemprop="wordCount" content="913">
 <meta itemprop="keywords" content="headless," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="New Headless Blog"/>
 <meta name="twitter:description" content="Creating websites can be a pain."/>
@@ -205,9 +205,53 @@
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Don&rsquo;t you like writting themes, maintaing a CMS and also making sure you database is working? How about those constant patches you have to do to ensure that security is up to par? I hate all of those things! I just wanted to write tech based articles without having to worry about the security of my user name, various passwords, the database or the endless patches for exploits that were discovered in a number of open source CMS systems.</p>
 <p>I have used Wordpress, Joomla and a number of other popular packages but it always seemed there was something getting in the way when it came to writing. There was something there just blocking me from writting when I felt inspired. More often than not, I was searching for the next add-on or plugin to enhance the experiance but that just seemed to start bogging down the load times of the pages. This is when I decided to start thinking of a new project to take on and ditch the clunky CMS platforms for something that would allow me to write the way I wanted and also have faster performacne for the user experience.</p>
-<p>This is when I stumbled upon <strong><a href="https://gohugo.io">Hugo</a></strong> which is a static site generator. It allows me to create a template and then feed my data into it to create static pages of my content. The content is rather simple as it&rsquo;s written in Markdown and the templates are in HTML wtih some Javascript as required. I can even extend this further by adding in some react if required for the various modules.</p>
-<p>All in all, this project is starting to go well and I will add some serverless functions for some of the required tools so that I have a seamless presentation of information.</p>
-<ul class="pa0">
+<p>This is when I stumbled upon <strong><a href="https://gohugo.io" target="_blank">Hugo</a></strong> which is a static site generator. It allows me to create a template and then feed my data into it to create static pages of my content. The content is rather simple as it&rsquo;s written in Markdown and the templates are in HTML wtih some Javascript as required. I can even extend this further by adding in some react if required for the various modules.</p>
+<p>What made this appealing to me is that I could write my posts in another CMS and have Hugo grab the content from there and host it as a static site. This gives me the flexibility to write in an interface I&rsquo;m familiar with and then have Hugo do the heavy lifting and processing of the content.</p>
+<p>If you&rsquo;re worried about Markdown being too restrictive, Hugo does support Goldmark and BlackFriday which allows you to use HTML elements in my posts as well as tune how the Markdown rendering is done. You can read more about that <a href="https://gohugo.io/getting-started/configuration-markup/" target="_blank">here</a>. Just to save you a little work on building your own site/blog/empire, you will want to confiugre this in order to open your links that you set in Markdown to be able to open in a new window or tab.</p>
+<p>In short, this gives me the flexibility and power to build my site the way I want and have the greatest performance possible. Oh, and if you want to see how this page was composed, here&rsquo;s what the Markdown and front matter look like.</p>
+<pre><code class="language-markdown:" data-lang="markdown:">---
+date: 2021-03-03
+description: &quot;Creating websites can be a pain.&quot;
+featured_image: &quot;/images/new_blog.jpg&quot;
+tags: [&quot;headless&quot;]
+title: New Headless Blog
+---
+
+Don't you like writting themes, maintaing a CMS and also making sure you database is working? 
+How about those constant patches you have to do to ensure that security is up to par? 
+I hate all of those things! I just wanted to write tech based articles without having to 
+worry about the security of my user name, various passwords, the database or the endless 
+patches for exploits that were discovered in a number of open source CMS systems.
+
+I have used Wordpress, Joomla and a number of other popular packages but it always seemed 
+there was something getting in the way when it came to writing. There was something there 
+just blocking me from writting when I felt inspired. More often than not, I was searching 
+for the next add-on or plugin to enhance the experiance but that just seemed to start 
+bogging down the load times of the pages. This is when I decided to start thinking of a 
+new project to take on and ditch the clunky CMS platforms for something that would allow me 
+to write the way I wanted and also have faster performacne for the user experience.
+
+This is when I stumbled upon **[Hugo](https://gohugo.io)** which is a static site generator. 
+It allows me to create a template and then feed my data into it to create static pages of my 
+content. The content is rather simple as it's written in Markdown and the templates are in 
+HTML wtih some Javascript as required. I can even extend this further by adding in some 
+react if required for the various modules.
+
+What made this appealing to me is that I could write my posts in another CMS and have Hugo 
+grab the content from there and host it as a static site. This gives me the flexibility to 
+write in an interface I'm familiar with and then have Hugo do the heavy lifting and 
+processing of the content.
+
+If you're worried about Markdown being too restrictive, Hugo does support Goldmark and 
+BlackFriday which allows you to use HTML elements in my posts as well as tune how the  
+Markdown rendering is done. You can read more about that [here](https://gohugo.io/getting-started/configuration-markup/). Just to save you a little work on building your own 
+site/blog/empire, you will want to confiugre this in order to open your links that 
+you set in Markdown to be able to open in a new window or tab.
+
+In short, this gives me the flexibility and power to build my site the way I want and 
+have the greatest performance possible. Oh, and if you want to see how this page was 
+composed, here's what the Markdown and front matter look like.
+</code></pre><ul class="pa0">
   
    <li class="list">
      <a href="/tags/headless" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">headless</a>
@@ -215,6 +259,27 @@
   
 </ul>
 <div class="mt6 instapaper_ignoref">
+      
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "lawrencestockman" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       
       
       </div>
