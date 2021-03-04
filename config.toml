@@ -1,5 +1,5 @@
 title = "Lawrence STockman"
-baseURL = ""
+baseURL = "/"
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "./resources"
