@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>headless on Lawrence Stockman</title>
-    <link>/tags/headless/</link>
+    <link>https://lawrencestockman.com/tags/headless/</link>
     <description>Recent content in headless on Lawrence Stockman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/headless/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lawrencestockman.com/tags/headless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>New Headless Blog</title>
-      <link>/post/new_blog/</link>
+      <link>https://lawrencestockman.com/post/new_blog/</link>
       <pubDate>Wed, 03 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/post/new_blog/</guid>
+      <guid>https://lawrencestockman.com/post/new_blog/</guid>
       <description>Don&amp;rsquo;t you like writting themes, maintaing a CMS and also making sure you database is working? How about those constant patches you have to do to ensure that security is up to par? I hate all of those things! I just wanted to write tech based articles without having to worry about the security of my user name, various passwords, the database or the endless patches for exploits that were discovered in a number of open source CMS systems.</description>
     </item>
     
