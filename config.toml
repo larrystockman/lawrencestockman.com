@@ -1,5 +1,5 @@
 title = "Lawrence STockman"
-baseURL = "/"
+baseURL = "https://lawrencestockman.com"
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "./resources"
@@ -15,6 +15,10 @@ enableRobotsTXT = true
     title = "Lawrence Stockman"
     weight = 1
     contentDir = "content/en"
+  [languages.es]
+    title = "Lawrence Stockman"
+    weight = 1
+    contentDir = "content/esr"
  
 [sitemap]
   changefreq = "monthly"
