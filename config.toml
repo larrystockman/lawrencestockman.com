@@ -16,7 +16,7 @@ disqusShortname = "lawrencestockman"
   [languages.en]
     title = "Lawrence Stockman"
     weight = 1
-    contentDir = "content/en"
+    contentDir = "content"
 
  
 [sitemap]
