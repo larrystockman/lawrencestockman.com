@@ -8,4 +8,4 @@ menu:
   main: {}
 
 ---
-{{< form-contact data-netlify="true"  >}}
+{{< form-contact  action="https://lawrecestockman.com/" >}}
