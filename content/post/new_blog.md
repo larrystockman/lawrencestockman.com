@@ -4,7 +4,7 @@ description: Creating websites can be a pain.
 featured_image: "/images/new_blog.jpg"
 tags:
 - headless
-title: New Headless Blog
+title: New Headless/Serverless Blog
 
 ---
 Don't you like writting themes, maintaing a CMS and also making sure you database is working? How about those constant patches you have to do to ensure that security is up to par? I hate all of those things! I just wanted to write tech based articles without having to worry about the security of my user name, various passwords, the database or the endless patches for exploits that were discovered in a number of open source CMS systems.
