@@ -1,6 +1,5 @@
 +++
 description = ""
-draft = true
 featured_image = ""
 omit_header_text = false
 title = "Contact Me"
